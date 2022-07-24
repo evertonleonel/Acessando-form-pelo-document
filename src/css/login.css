@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+
+.container {
+  margin: 50px 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.formularioLogin{
+  width: 330px;
+  margin: 100px auto;
+}
+
+.formularioLogin label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#loginUsuario, #senhaUsuario {
+  display: block;
+  width: 100%;
+  max-width: 330px;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+
+  outline: none;
+}
+
+.botaoLogin {
+  width: 332px;
+  padding: 0 16px;
+  border: none;
+  border-radius: 6px;
+
+  font-size: 20px;
+  line-height: 48px;
+}
