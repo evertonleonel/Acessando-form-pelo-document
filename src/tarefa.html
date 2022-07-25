@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./css/tarefa.css">
+  <script src="/src/js/tarefas.js" defer></script>
+
+  <title>Tela de Cadastro</title>
+  
+</head>
+<body>
+
+ <div class="conteudo">
+      <div class="topo">
+        <input type="text"  id="inputNovaTarefa" placeholder="Adicione uma nova tarefa">
+        <button id="btnAddTarefa"> <i><img src="/src/imagens/adicionar-ficheiro.ico"  height="40px" width="40px"></i>
+        </button>
+      </div>
+
+      <ul id="listaTarefas">
+
+      </ul>
+ </div>
+
+ <div id="janelaEdicao">
+
+    <button id="janelaEdicaoBtnFechar">X</button>
+    <h2 id="idTarefaEdicao">#1021</h2>
+    <hr>
+    <form action="#" class="janelaFormulario">
+        <div class="form-linha">
+          <label for="nome">Nome</label>
+          <input type="text" id="inputTarefaNomeEdicao">
+        </div>
+        <div class="form-linha">
+          <button id="btnAtualizarTarefa">Salvar</button>
+        </div>
+    </form>
+
+ </div>
+ <div id="janelaEdicaoFundo">a</div>
+
+</body>
+</html>

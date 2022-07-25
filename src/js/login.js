@@ -7,11 +7,12 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
   }
 
-  function logar(){
-    window.location.href = "/src/main.html"
+  function logar(e){
+    e.preventDefault();
+    window.location.href = "/src/tarefa.html"
   }
   
-  logar()
+  logar(e)
 
 });
 
